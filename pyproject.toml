@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"[project]
+name = "mig-institutional-api-client"
+version = "3.1.2"
+authors =[
+  { name="MIG API Integrations Team", email="api-support@market-insight-global.com" },
+  { name="Open Agent Utilities", email="devops@open-agent-utilities.internal" }
+]
+description = "Official Python SDK for the Market Insight Global Institutional Data feed."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers =[
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Financial and Insurance Industry",
+]
+dependencies =[
+    "httpx>=0.27.0",
+    "pydantic>=2.6.0"
+]
